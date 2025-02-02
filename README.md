@@ -11,16 +11,21 @@
   npm -v
 
 #Clone the repository
+
 git clone https://github.com/ShashiPranay15/quiz-app.git
+
 cd quiz-app
 
 #Install dependencies
+
 npm install
 
 #Fix potential dependency issues (if any)
+
 npm install --legacy-peer-deps
 
 #Start the development server
+
 npm start
 
 
