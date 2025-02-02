@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "Who won the ICC Cricket World Cup 2023?",
+    option1: "India",
+    option2: "Australia",
+    option3: "England",
+    option4: "New Zealand",
+    ans: 2,
+  },
+  {
+    question: "Which country recently became the newest member of BRICS in 2024?",
+    option1: "Saudi Arabia",
+    option2: "Argentina",
+    option3: "UAE",
+    option4: "Egypt",
+    ans: 2,
+  },
+  {
+    question: "What is the name of the first AI-powered humanoid robot launched in 2023?",
+    option1: "Sophia",
+    option2: "Optimus",
+    option3: "Atlas",
+    option4: "Gemini",
+    ans: 4,
+  },
+  {
+    question: "Which city hosted the COP28 Climate Summit in 2023?",
+    option1: "Dubai",
+    option2: "Glasgow",
+    option3: "Madrid",
+    option4: "Bonn",
+    ans: 1,
+  },
+  {
+    question: "Which country launched the Artemis II mission scheduled for 2024?",
+    option1: "Russia",
+    option2: "China",
+    option3: "USA",
+    option4: "India",
+    ans: 3,
+  },
+];

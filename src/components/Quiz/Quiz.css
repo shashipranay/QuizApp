@@ -1,0 +1,94 @@
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #f9f9fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 40px 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: linear-gradient(90deg, #707070, #553faa);
+  transition: background 0.3s ease;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #171817;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 2px solid #b0b0b0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.container ul li:hover {
+  background-color: #f0f0ff;
+  border-color: #c4d669;
+  transform: translateX(5px);
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background: linear-gradient(135deg, #070707, #f6d64a);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.container button:hover {
+  background: linear-gradient(135deg, #553faa, #6e44ff);
+  transform: scale(1.05);
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+  color: #666;
+}
+
+.container .correct {
+  background-color: #d0fbe4;
+  border-color: #1bc47d;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.container .incorrect {
+  background-color: #ffe2e2;
+  border-color: #ff3b3b;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.container .correct:hover, .container .incorrect:hover {
+  transform: scale(1.03);
+}
